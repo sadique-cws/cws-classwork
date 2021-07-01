@@ -26,9 +26,9 @@ const App = () => {
               <Route exact path="/"><CourseLayout data={data}/></Route>
               <Route exact path="/login"><Login/></Route>
               <Route exact path="/register"><Register/></Route>
-              <Route exact path="/course/:id"><CourseView/></Route>
               <Route exact path="/course/view"><VideoStreamView/></Route>
               <Route exact path="/course/add"><AddCourse/></Route>
+              <Route exact path="/course/:id"><CourseView/></Route>
           </Switch> 
       </Router>
     </React.Fragment>
